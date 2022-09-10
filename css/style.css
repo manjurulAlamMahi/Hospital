@@ -1,0 +1,593 @@
+/* -----------------------------------------------
+                common css start
+----------------------------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a , span{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    width: 985px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+:root{
+    --hover: #f18d26;
+    --red: #c70811;
+    --blue: #215a6d;
+    --silver: #eaeaea;
+    --lime: #3ca2a2;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+@font-face{
+    src: url(../font-family/MYRIADPRO-SEMIBOLD.OTF);
+    font-family: MYRIADPRO-SEMIBOLD;
+}
+
+/* -----------------------------------------------
+                common css end
+----------------------------------------------- */
+/* --------------------------------------------
+              header part start
+-------------------------------------------- */
+
+#header {
+    background: #fff;
+}
+
+.header_left{
+    width: 10%;
+    float: left;
+}
+.header_middle{
+    width: 65%;
+    float: left;
+}
+.header_right{
+    width: 25%;
+    float: left;
+    text-align: right;
+}
+.header_left a{
+    margin-top: 13px;
+}
+.header_middle p{
+    font-size: 26px;
+    font-weight: 700;
+    color: #3ca2a2;
+    line-height: 117px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header_right a{
+    font-weight: 400;
+    color: #b76262;
+    font-size: 30px;
+    line-height: 117px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* --------------------------------------------
+              header part end
+-------------------------------------------- */
+/* --------------------------------------------
+              menu part start
+-------------------------------------------- */
+
+#main_menu{
+    background: linear-gradient( to top,#ae1010 0% , #cf0511 100%);
+}
+.main_menu{
+    float: left;
+    width: 90%;
+}
+.logo{
+    float: left;
+    width: 10%;
+    line-height: 50px;
+    text-align: right;
+}
+.main_menu ul li a{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 0px 16px;
+    line-height: 50px;
+    transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+} 
+.main_menu ul li{
+    float: left;
+
+}
+.logo a{
+   width: 27px;
+   height: 27px;
+   border-radius: 50%;
+   background: #fff;
+   color: #b70d10;
+   line-height: 27px;
+   text-align: center;
+   transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+}
+.logo a:hover{
+    background: var(--hover);
+    color: #fff;
+}
+
+.main_menu ul li a:hover{
+    background: #f18d26;
+}
+/* --------------------------------------------
+              menu part end
+-------------------------------------------- */
+
+
+
+/* --------------------------------------------
+              banner part start
+-------------------------------------------- */
+#banner{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding-top: 75px !important;
+    padding-bottom: 75px !important; 
+    
+}
+.ban{
+    display: flex;
+    position: relative;
+}
+.banner_text{ 
+    width: 50%;
+}
+.banner_text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #215a6d;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-top: -13px;
+}
+.banner_text span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #215a6d;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-top: -15px;
+}
+.banner_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #215a6d;
+    line-height: 22px;
+    width: 300px;
+    margin-top: 13px;
+}
+.banner_text a{
+    padding: 15px 25px;
+    background: #92c7a3;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+}
+.banner_text a:hover{
+    background: var(--hover);
+}
+.human {
+    width: 61%;
+    position: absolute;
+    right: -21px;
+    bottom: -75px;
+}
+.human img{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/* --------------------------------------------
+              banner part end
+-------------------------------------------- */
+/* --------------------------------------------
+              about part start
+-------------------------------------------- */
+
+#about_head{
+    padding-top: 48px;
+    padding-bottom: 90px;
+}
+
+.about_part{
+    text-align: center;
+}
+
+.about_part div{
+    float: left;
+}
+.about_one{
+    width: 332px;
+}
+
+.about_two{
+    width: 332px;
+}
+
+.about_three{
+    width: 321px;
+}
+
+.about_part div h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #3ca2a2;
+}
+.about_part div p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #215a6d;
+    line-height: 20.4px;
+    padding-bottom: 28px;
+
+}
+
+.about_part div a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #92c7a3;
+    transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+}
+.about_part div a:hover,
+.about_part div a:hover i{
+color: var(--hover);
+}
+.about_part div img{
+    padding-top: 25px;
+    padding-bottom: 17px;
+}
+.about_part div p span{
+    display: inline-block;
+}
+.about_part div a i{
+    color: var(--red);
+    margin-right: 7px;
+    transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+}
+
+/* --------------------------------------------
+              about part end
+-------------------------------------------- */
+
+
+
+/* --------------------------------------------
+              Notice part Start
+-------------------------------------------- */
+#notice{
+    background: #dfece6;
+    padding: 30px 0px;
+}
+.notice_part{
+    display: flex;
+}
+.heading h2{
+    font-size: 29px;
+    font-weight: 600;
+    color: var(--blue);
+    padding-bottom: 15px;
+    position: relative;
+}
+.heading h2::after{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    content: '';
+    border-bottom: 2px solid var(--red);
+    height: 100%;
+    width: 54px;
+    z-index: 1;
+}
+.heading h2::before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+.not_board{
+    width: 48%;
+    margin-right: 3%;
+}
+.dec{
+    padding: 35px 0px;
+}
+.dec ul li{
+    background: #fff;
+    line-height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 15px;
+    color: var(--lime);
+    border-bottom: 1px solid var(--lime);
+}
+.dec ul li:last-child{
+    border-bottom: none;
+}
+.dec ul li i{
+    padding: 0 15px;
+    line-height: 44px;
+    color: #fff;
+    background: var(--red);
+    float: right;
+}
+.not_board a{
+    font-size: 14px;
+    color: var(--red);
+}
+.not_board i{
+    color: var(--red);
+    padding-right: 7px;
+}
+.not_video{
+    width: 49%;
+}
+.not_img{
+    margin-top: 43px;
+}
+.not img img{
+    width: 100%;
+    max-width: 100%;
+}
+/* --------------------------------------------
+              Notice part end
+-------------------------------------------- */
+
+
+
+/* --------------------------------------------
+              Service part Start
+-------------------------------------------- */
+#service{
+    padding: 65px 0px;
+}
+.service_head h2::before{
+    border-color: var(--silver);
+}
+.serv_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.news{
+    width: 320px;
+    margin-right: 30px;
+}
+.news_text{
+    border-bottom: 1px solid var(--silver);
+    padding-top: 33px;
+}
+.news_text2{
+    border-bottom: none;
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+.news_text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--lime);
+}
+.news_text p{
+    color: var(--blue);
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 25px;
+}
+.news a , .serv a , .gallary a{
+    font-size: 16px;
+    color: var(--lime);
+}
+.news a i , .serv a i , .gallary a i{
+    color: var(--red);
+    margin-right: 7px;
+}
+.serv{
+    width: 300px;
+    margin-right: 30px;
+}
+.serv ul {
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+.serv li {
+    font-size: 13px;
+    color: var(--blue);
+    margin-bottom: 13px;
+}
+.serv li i{
+    color: var(--red);
+    margin-right: 8px;
+}
+.gallary{
+    width: 300px;
+}
+.gallary ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.gallary ul li{
+    width: 45%;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.gallary ul li img{
+    width: 100%;
+    max-width: 100%;
+}
+.gallary ul li:nth-child(2),
+.gallary ul li:last-child{
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+/* --------------------------------------------
+              Service part end
+-------------------------------------------- */
+
+
+
+/* --------------------------------------------
+              Doctor part Start
+-------------------------------------------- */
+#doctor{
+    padding-bottom: 95px;
+}
+.doctor_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.doctor_part{
+    width: 31.3%;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.doctor_row div:last-child{
+    padding-right: 0px;
+}
+.doctor_img img{
+    width: 100%;
+    max-width: 100%;
+}
+.doctor_part h2{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--lime);
+    padding-top: 10px;
+}
+.doctor_part h4{
+    font-weight: 400;
+    font-size: 12px;
+    color: #878787;
+}
+.doctor_part p{
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--red);
+}
+/* --------------------------------------------
+              Doctor part end
+-------------------------------------------- */
+
+
+
+/* --------------------------------------------
+              Contact part Start
+-------------------------------------------- */
+.footer_top{
+    padding: 30px 0px;
+    background: #222222;
+}
+.ft_head{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+}
+.ft_part{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft_logo a img{
+    margin-right: 20px;
+}
+.ft_logo a{
+    font-family: MYRIADPRO-SEMIBOLD;
+    color: var(--lime);
+    font-size: 26px;
+    font-weight: 600;
+}
+.ft_nav , .ft_serv , .ft_train , .ft_cntct{
+    width: 22.71%;
+    margin-right: 30px;
+}
+.ft_cntct{
+    margin-right: 0px;
+}
+.ft_part div h3{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--lime);
+}
+.ft_part div ul li i{
+    color: var(--red);
+    font-size: 12px;
+    padding-right: 5px;
+}
+.ft_part div ul li a{
+    font-size: 12px;
+    font-weight: 400;
+    color: #c6ded9;
+    transition: all linear .3s;
+}
+.ft_part div ul li a:hover{
+    color: var(--hover);
+}
+.ft_part div ul{
+    margin-top: 20px;
+}
+.footer_bottom{
+    text-align: center;
+    padding: 15px 0px;
+    background: #cf0511;
+}
+.footer_bottom p{
+    font-size: 14px;
+    color: #c6ded9;
+}
+/* --------------------------------------------
+              Contact part end
+-------------------------------------------- */
